@@ -1,50 +1,266 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 
 <head>
-    <META http-equiv="Content-Style-Type" content="text/css">
-
-    <title>Talia O'Shea</title>
-
-
-    <style type="text/css">
-        <!--
-        body {
-            font-family: tahoma, helvetica, sans-serif;
-            margin: 20% 5% 5% 5%;
-            background-color: #fbf8ff;
-        }
-
-        table {
-            font-size: 200%;
-            background-color: #fafafa;
-            border: 1 solid black;
-        }
-
-        p {
-            margin-left: 10%
-        }
-
-        .dim {
-            color: #ebe8ef
-        }
-        -->
-    </style>
-
+    <title>Talia M. O'Shea</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 </head>
 
-<body>
+<body class="is-preload">
 
-    <table width="100%" height="400">
-        <tr>
-            <td>
-                <p>
-                    Talia O'Shea
-    </table>
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#one">Research</a></li>
+                    <li><a href="#two">CV</a></li>
+                    <!-- <li><a href="#three">Get in touch</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </section>
 
-    <p><em>Computational astronomer, graduate student at University of Wisconsin-Madison</em>
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-    <p><em>Complete website... coming soon!</em>
+        <!-- Intro -->
+        <section id="intro" class="wrapper style1 fullscreen fade-up">
+
+            <div class="inner">
+                <img style="float: right; padding-left: 200px; padding-bottom: 500px; padding-top: 120px;"
+                    src="images/O'Shea_Headshot.JPG" alt="headshot" width="30%" />
+
+                <h1>Talia M. O'Shea</h1>
+                <p>NSF Graduate Research Fellow in Astronomy at the <a href="https://www.astro.wisc.edu/"
+                        target="_blank">University of
+                        Wisconsin-Madison</a> working with Sebastian Heinz. Previously, I received my undergraduate
+                    degree in Astrophysics (and
+                    History!) from Wellesley College.</p>
+                <p>I am a computational astronomer broadly interested in the co-evolution of galaxies and their central
+                    supermassive black holes. I am also passionate about mentorship and
+                    education (see my <a href="#two">CV</a> for more details.)</p>
+                <p><em>Currently researching</em>: radio-mode feedback via the propagation of relativistic AGN jets
+                    into their host galaxies. </p>
+
+            </div>
+        </section>
+
+        <!-- One -->
+        <section id="one" class="wrapper style2 spotlights">
+            <!--style2 gives the colors; -->
+            <section id="stellar_massloading">
+                <a href="#stellar_massloading" class="image"><img src="images/dens_points_artsy270.jpg"
+                        alt="The pink background of the image shows jet fluid, with a dark oval on the left side representing a star. Darker regions swirl around the star, showing mixing between the stellar wind and jet fluid."
+                        data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Stellar mass-loading in AGN jets</h2>
+                        <p>AGN jets must be decelerated in order to deposit kinetic energy into their host galaxies. I
+                            investigate the process of stellar mass-loading as a source of deceleration, where stellar
+                            winds are swept up by the jet. The image on the left shows a snapshot from a
+                            simulation run in the moving-mesh code Arepo, where the jet moves from left to right over a
+                            star and mixes with
+                            the stellar wind material.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="tng">
+                <a href="#tng" class="image"><img src="images/cluster_map.jpg"
+                        alt="The background of the image shows the density profile of a galaxy cluster, with white lines tracing the orbits of galaxies within the cluster."
+                        data-position="center center" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Dynamical friction in galaxy clusters</h2>
+                        <p><em><strong>I tested the effect of dynamical friction on measurements of the splashback
+                                    radius in galaxy clusters.</strong></em> There are discrepancies between splashback
+                            radii measured with dark matter and galaxy number density profiles, which are often
+                            attributed to dynamical friction. I ran simulations starting from galaxy cluster data from
+                            cosmological simulation <a href="https://www.tng-project.org/">IllustrisTNG</a>, and found
+                            that dynamical friction minimally affects the measured splashback radius, meaning that there
+                            must be other contributing processes that are not yet understood! </p>
+                        <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240518468O/abstract"
+                            target="_blank"><em>Dynamical friction and measurements of the splashback radius in galaxy
+                                clusters</em>,
+                            O'Shea T.M. et al., <em>under review at OJAp.</em></a>
+                    </div>
+                </div>
+            </section>
+            <!--
+            <section>
+                <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+                <div class="content">
+                    <div class="inner">
+                        <h2>Ultricies aliquam</h2>
+                        <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies
+                            erat malesuada quis. Aliquam dapibus.</p>
+                        <ul class="actions">
+                            <li><a href="generic.html" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            -->
+        </section>
+
+        <section id="two" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>CV</h2>
+                <iframe src="assets/OShea_CV.pdf#toolbar=0&navpanes=0" frameBorder="0" scrolling="auto"
+                    style="width:90%; height:800px; border:None"></iframe>
+            </div>
+        </section>
+
+        <!--
+        <section id="two" class="wrapper style3 fade-up">
+            <div class="inner">
+                <h2>What we do</h2>
+                <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat
+                    malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
+                    imperdiet est velit quis lorem.</p>
+                <div class="features">
+                    <section>
+                        <span class="icon solid major fa-code"></span>
+                        <h3>Lorem ipsum amet</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-lock"></span>
+                        <h3>Aliquam sed nullam</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-cog"></span>
+                        <h3>Sed erat ullam corper</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-desktop"></span>
+                        <h3>Veroeros quis lorem</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon solid major fa-link"></span>
+                        <h3>Urna quis bibendum</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                    <section>
+                        <span class="icon major fa-gem"></span>
+                        <h3>Aliquam urna dapibus</h3>
+                        <p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed
+                            ultricies erat dapibus.</p>
+                    </section>
+                </div>
+                <ul class="actions">
+                    <li><a href="generic.html" class="button">Learn more</a></li>
+                </ul>
+            </div>
+        </section>
+
+-->
+        <!-- Three
+        <section id="three" class="wrapper style1 fade-up">
+            <div class="inner">
+                <h2>Get in touch</h2>
+                <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat
+                    malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
+                    imperdiet est velit quis lorem.</p>
+                <div class="split style1">
+                    <section>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><a href="" class="button submit">Send Message</a></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section>
+                        <ul class="contact">
+                            <li>
+                                <h3>Address</h3>
+                                <span>12345 Somewhere Road #654<br />
+                                    Nashville, TN 00000-0000<br />
+                                    USA</span>
+                            </li>
+                            <li>
+                                <h3>Email</h3>
+                                <a href="#">user@untitled.tld</a>
+                            </li>
+                            <li>
+                                <h3>Phone</h3>
+                                <span>(000) 000-0000</span>
+                            </li>
+                            <li>
+                                <h3>Social</h3>
+                                <ul class="icons">
+                                    <li><a href="#" class="icon brands fa-twitter"><span
+                                                class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon brands fa-facebook-f"><span
+                                                class="label">Facebook</span></a></li>
+                                    <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                                    </li>
+                                    <li><a href="#" class="icon brands fa-instagram"><span
+                                                class="label">Instagram</span></a></li>
+                                    <li><a href="#" class="icon brands fa-linkedin-in"><span
+                                                class="label">LinkedIn</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+    </div>
+-->
+        <!-- Footer -->
+        <footer id="footer" class="wrapper style1-alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Talia O'Shea. All rights reserved.</li>
+                    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
 
 </body>
 
